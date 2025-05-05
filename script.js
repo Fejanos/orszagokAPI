@@ -32,10 +32,17 @@ function loadCards(countries){
         <img src="${countries[key].media.flag}" alt="${countries[key].name}_zaszlo">
         <p><strong>Főváros:</strong> ${countries[key].capital}</p>
         <p><strong>Pénznem:</strong> ${countries[key].currency}</p>
-        <p><strong>Rövidítés:</strong> ${countries[key].abbrevitation}</p>`;
+        <p><strong>Rövidítés:</strong> ${countries[key].abbreviation}</p>`;
 
         // kártya hozzáadása a container-hez
         cardContainer.appendChild(card);
     }
     
+    /* Házi feladat:
+    - embléma
+    - telefon
+    - populáció
+    rákattintva az adott ország kártyára POPUP ablakként - bezárható legyen
+    */
+
 }

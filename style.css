@@ -49,4 +49,5 @@ h1{
     height: auto;
     margin: 0 auto;
     object-fit: contain;
+    border: 1px solid black;
 }
